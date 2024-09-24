@@ -1,6 +1,6 @@
 {
   "name": "@engingokmen/library",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Library for React apps and components",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

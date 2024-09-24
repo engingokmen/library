@@ -8,13 +8,6 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(js|jsx)$/,
-        exclude: /node_modules/,
-        use: {
-          loader: "babel-loader",
-        },
-      },
-      {
         test: /\.tsx?$/,
         use: [
           {
@@ -38,6 +31,5 @@ module.exports = {
     filename: "index.js",
     path: path.resolve(__dirname, "dist"),
     clean: true,
-    // libraryTarget: "commonjs2",
   },
 };

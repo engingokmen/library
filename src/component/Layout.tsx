@@ -5,4 +5,5 @@ export const Layout = styled.div`
   flex-direction: column;
   gap: 1rem;
   background-color: var(--cream);
+  height: 100%;
 `;

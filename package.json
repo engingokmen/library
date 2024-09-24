@@ -1,0 +1,25 @@
+{
+  "name": "library",
+  "version": "1.0.0",
+  "description": "Library for React apps and components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/engingokmen/library.git"
+  },
+  "keywords": [
+    "library",
+    "react",
+    "apps",
+    "components"
+  ],
+  "author": "Engin Gokmen <engin.gokmen@icloud.com> (https://engingokmen.click)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/engingokmen/library/issues"
+  },
+  "homepage": "https://github.com/engingokmen/library#readme"
+}

@@ -1,17 +1,3 @@
-import React from "react";
-import styled from "styled-components";
+import ChatApp from "./App";
 
-const App = () => {
-  return (
-    <div>
-      <h1>App</h1>
-      <StyledDiv>module</StyledDiv>
-    </div>
-  );
-};
-
-const StyledDiv = styled.div`
-  color: red;
-`;
-
-export default App;
+export default ChatApp;

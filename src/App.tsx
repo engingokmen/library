@@ -1,6 +1,6 @@
 import React from "react";
 import { Messages } from "./features/messages";
-import { Laout } from "./component/Laout";
+import { Layout } from "./component/Layout";
 import { InputForm } from "./features/inputForm";
 import { ComboBox } from "./features/comboBox";
 import { Autosuggestion } from "./features/autoSuggestion";
@@ -11,13 +11,13 @@ import { IMessage } from "./types";
 
 const ChatApp = () => {
   return (
-    <Laout>
+    <Layout>
       <Messages />
       <ComboBox />
       <Autosuggestion />
       <ImageDisplay />
       <InputForm />
-    </Laout>
+    </Layout>
   );
 };
 

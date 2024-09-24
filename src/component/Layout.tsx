@@ -1,8 +1,6 @@
 import styled from "styled-components";
 
-export const Laout = styled.div`
-  padding: 16px 8px;
-  height: calc(100% - 32px);
+export const Layout = styled.div`
   display: flex;
   flex-direction: column;
   gap: 1rem;

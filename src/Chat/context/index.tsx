@@ -5,7 +5,7 @@ import React, {
   useEffect,
   useReducer,
 } from "react";
-import { Combobox, Direction, IMessage, IState } from "../types";
+import { Combobox, Direction, IMessage, IState } from "../../types";
 
 const initialValue = {
   messages: [],

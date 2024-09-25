@@ -1,3 +1,4 @@
-import ChatApp from "./App";
+import ChatApp from "./Chat/App";
+import MagicQuadrant from "./MagicQuadrant/App";
 
-export default ChatApp;
+export { ChatApp, MagicQuadrant };

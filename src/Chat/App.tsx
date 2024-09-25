@@ -7,7 +7,7 @@ import { Autosuggestion } from "./features/autoSuggestion";
 import { ImageDisplay } from "./features/imageDisplay";
 import { AppProvider } from "./context";
 import { GlobalStyle } from "./component/GlobalStyle";
-import { IMessage } from "./types";
+import { IMessage } from "../types";
 
 const ChatApp = () => {
   return (

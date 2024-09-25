@@ -5,7 +5,7 @@ import {
   useAppData,
   useAppDipatch,
 } from "../../context";
-import { Combobox } from "../../types";
+import { Combobox } from "../../../types";
 import styled from "styled-components";
 
 export const ComboBox = () => {

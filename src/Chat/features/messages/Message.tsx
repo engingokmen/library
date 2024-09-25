@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Direction } from "../../types";
+import { Direction } from "../../../types";
 
 export const Message = ({
   value,

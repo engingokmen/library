@@ -6,8 +6,11 @@ export interface ItemsAction {
   payload?: any;
 }
 
-const items = localStorage.getItem("items") || "[]";
-const initialData = JSON.parse(items);
+let items;
+if (typeof window !== "undefined") {
+  items = window.localStorage.getItem("items") || "[]";
+}
+const initialData = JSON.parse(items || "{}");
 export const initialState: Array<PointClass> = initialData;
 
 export const itemsReducer = (state: Array<PointClass>, action: ItemsAction) => {

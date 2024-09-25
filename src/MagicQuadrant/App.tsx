@@ -9,7 +9,9 @@ const App = () => {
 
   // recording items to localstorage
   useEffect(() => {
-    localStorage.setItem("items", JSON.stringify(items));
+    if (typeof window !== "undefined") {
+      window.localStorage.setItem("items", JSON.stringify(items));
+    }
   }, [items]);
 
   return (
